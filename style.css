@@ -1,0 +1,169 @@
+
+.hero{
+    background-image: url(images/hero.gif);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    margin:0px;
+}
+h2{
+    font-size: 100px;
+    color: #eae8db;
+    margin: 0px 100px;
+    position: relative;
+    top:75px
+}
+header{
+    padding: 20px 35px;
+    background-color: #ddbea6;
+    display: flex;
+
+}
+header a{
+    font-size: 25px;
+    color: #eae8db;
+    position: relative;
+
+}
+header a:hover{
+    color: #e6584d;
+}
+header h1{
+    color: #eae8db;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    background-color: #d97a74;
+    padding: 5px;
+}
+header nav{
+    margin:  0;
+    padding: 0px;
+}
+header nav ul li{
+    display: inline;
+    padding: 15px; 
+    font-weight: lighter;
+    font-size: 22px;
+}
+h1{
+    color: #e6584d;
+    font-size: 60px;
+    display: flex;
+    position: relative;
+    left: 0px;
+}
+.about h1{
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+.vertical-line{
+display: inline-block;
+border-left: 3px solid #ddbea6;
+position: relative;
+left: 400px;
+top: 95px;
+height: 200px;
+}
+p {
+    position: relative;
+    left: 475px;
+    bottom: 220px;
+    font-size: 20px;
+    color: #e6584d;
+}
+.work h1{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.vertical-line2{
+    display: inline-block;
+border-left: 3px solid #ddbea6;
+position: relative;
+left: 255px;
+top: 100px;
+height: 200px;
+}
+.contact h1{
+    position: relative;
+    left: 40px;
+    top: 80px;
+}
+
+.contact a{
+color:#d97a74;
+font-size: 25px;
+text-decoration: underline;
+padding: 20px 40px;
+display: inline;
+margin-left: 25px;
+position: relative;
+left: 500px;
+bottom: 215px;
+
+}
+.contact a:hover{
+    color: #ddbea6;
+}
+
+
+img{
+    border: #e6584d solid 10px;
+    margin: 50px 10px 0 0;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 0px;
+    left: 500px;
+    display: flex;
+    flex: wrap;
+}
+h3{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+    left: 490px;
+    bottom: 100px;
+    background-color: #e6584d;
+    font-size: 25px;
+    text-decoration: none;
+}
+.work{
+    display: flex;
+}
+.buddy{
+    background-image: url("./images/run-buddy.jpg");
+    position: relative;
+    bottom: 0px;
+
+}
+.o19{
+    background-image: url("./images/o19.png");
+    position: relative;
+    bottom: 437px;
+    left: 350px;
+}
+.future{
+    background-image: url("./images/future.jpg");
+    position: relative;
+    bottom: 875px;
+    left: 700px;
+}
+.contact{
+    position: relative;
+    bottom: 850px;
+} 
+
+
+.vertical-line3{
+display: inline-block;
+border-left: 3px solid #ddbea6;
+position: relative;
+left: 400px;
+bottom: 100px;
+height: 200px;
+}
