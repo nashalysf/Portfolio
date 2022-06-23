@@ -15,33 +15,10 @@ body{
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
 }
-/*hero needs fixing*/
-.hero{
-    background-image: url(images/hero.gif);
-    display: flex;
-    flex-wrap: wrap;
-    height: 300px;
-    
-   
+.top-section{
+    width: 2540px;
 }
-.hero img{
-    background-size: contain;
-    background-attachment: fixed;
-    background-position: center;
-    
-   
-}
-h2{
-    display: flex;
-    font-size: 100px;
-    color: var(--primary);
-    margin: 0px 100px;
-    position: relative;
-    top: 90px;
-    right: 0px;
-    left: 30px;
-
-}
+/*INTRO SECTION HEADER AND NAV*/
 header{
     padding: 20px 35px;
     background-color: var(--secondary);
@@ -55,16 +32,9 @@ header{
     width: auto;
     margin: 0px;
 }
-.work{
-    display: flex;
-    justify-content: flex-start;
-
-}
 header a{
     font-size: 25px;
     color: var(--primary);
-/*display: flex;
-    justify-content: flex-end; => for responsive*/
 }
 header a:hover{
     color: var(--tertiary);
@@ -107,7 +77,40 @@ h1{
     font-size: 70px;
     
 }
+/*hero needs fixing*/
+.hero{
+    background-image: url(images/hero.gif);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+   
+}
+.hero img{
+    background-size: 80%;
+    background-attachment: fixed;
+    
 
+    
+   
+}
+h2{
+    display: flex;
+    font-size: 100px;
+    color: var(--primary);
+    margin: 0px 100px;
+    position: relative;
+    top: 90px;
+    right: 0px;
+    left: 30px;
+
+}
+/*FIRST SECTION ABOUT*/
 .about h1{
     position: relative;
     right: 550px;
@@ -144,7 +147,20 @@ p {
     padding-left: 30px;
     border-left: 5px solid var(--secondary);
 }
+/*SECOND SECTION WORK*/
+.vertical-line2{
+display: inline-block;
+border-left: 3px solid var(--secondary);
+position: relative;
+left: 253px;
+bottom: 110px;
+height: 450px;
+}
+.work{
+    display: flex;
+    justify-content: flex-start;
 
+}
 .projects{
     display: flex;
     align-items: stretch;
@@ -154,6 +170,7 @@ p {
     left: 200px;
     top: 40px;
 }
+/*first project*/
 .buddy img{
     border: solid var(--fortiary) 5px;
     width: 500px;
@@ -161,63 +178,17 @@ p {
     position: relative;
     left: 400px;
 }
-
-.vertical-line2{
-display: inline-block;
-border-left: 3px solid var(--secondary);
-position: relative;
-left: 253px;
-bottom: 110px;
-height: 450px;
-}
-.contact{
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 1000px;
-}
-.contact h1{
-    position: relative;
-    right: 650px;
-    top: 20px;
-    text-align: right;
-}
-
-.contact a{
-color:var(--fortiary);
-font-size: 25px;
-text-decoration: underline;
-padding: 10px 40px;
-display: inline;
-margin-left: 25px;
-position: relative;
-left: 500px;
-bottom: 370px;
-
-}
-.contact a:hover{
-    color: var(--secondary);
-}
-
-.vertical-line3{
-    display: inline-block;
-    border-left: 3px solid var(--secondary);
-    position: relative;
-    left: 425px;
-    bottom: 200px;
-    height: 300px;
-    }
 h3{
     font-size: 30px;
 }
-/*first project*/
+
 .buddy p{
     font-weight: lighter;
 }
 .buddy h3, .buddy p{
-    text-decoration: underline var(--tertiary);
-    background-color: var(--tertiary);
-    color: var(--secondary);
+    text-decoration: underline var(--fortiary);
+    background-color: var(--fortiary);
+    color: var(--primary);
     padding-top: 10px;
     padding-bottom: 3px;
     padding-left: 10px;
@@ -243,9 +214,9 @@ h3{
     font-weight: lighter;
 }
 .O19 h3, .O19 p{
-    text-decoration: underline var(--tertiary);
-    background-color: var(--tertiary);
-    color: var(--secondary);
+    text-decoration: underline var(--fortiary);
+    background-color: var(--fortiary);
+    color: var(--primary);
     padding-top: 10px;
     padding-bottom: 3px;
     padding-left: 10px;
@@ -266,16 +237,16 @@ h3{
 .O19 img{
    height: 200px;
    width: 300px;
-   border: solid var(--tertiary) 5px;
+   border: solid var(--fortiary) 5px;
 }
 /*third project*/
 .Future p{
     font-weight: lighter;
 }
 .Future h3, .Future p{
-    text-decoration: underline var(--tertiary);
-    background-color: var(--tertiary);
-    color: var(--secondary);
+    text-decoration: underline var(--fortiary);
+    background-color: var(--fortiary);
+    color: var(--primary);
     padding-top: 10px;
     padding-bottom: 3px;
     padding-left: 10px;
@@ -296,16 +267,16 @@ h3{
 .Future img{
    height: 200px;
    width: 300px;
-   border: solid var(--tertiary) 5px;
+   border: solid var(--fortiary) 5px;
 }
 /*fourth project*/
 .Horiseon p{
     font-weight: lighter;
 }
 .Horiseon h3, .Horiseon p{
-    text-decoration: underline var(--tertiary);
-    background-color: var(--tertiary);
-    color: var(--secondary);
+    text-decoration: underline var(--fortiary);
+    background-color: var(--fortiary);
+    color: var(--primary);
     padding-top: 10px;
     padding-bottom: 3px;
     padding-left: 10px;
@@ -326,20 +297,46 @@ h3{
 .Horiseon img{
    height: 200px;
    width: 300px;
-   border: solid var(--tertiary) 5px;
+   border: solid var(--fortiary) 5px;
+}
+/*THIRD SECTION CONTACT*/
+.vertical-line3{
+    display: inline-block;
+    border-left: 3px solid var(--secondary);
+    position: relative;
+    left: 425px;
+    bottom: 200px;
+    height: 300px;
+    }
+.contact{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+}
+.contact h1{
+    position: relative;
+    right: 650px;
+    top: 20px;
+    text-align: right;
+}
+.contact a{
+color:var(--fortiary);
+font-size: 25px;
+text-decoration: underline;
+padding: 10px 40px;
+display: inline;
+margin-left: 25px;
+position: relative;
+left: 500px;
+bottom: 370px;
+
+}
+.contact a:hover{
+    color: var(--secondary);
 }
 
-.container{
-    margin: 100px auto;
-    padding-right: 100px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.top-section{
-    width: 2540px;
-}
+/*LAST SECTION FOOTER*/
 footer{
     background-color: var(--secondary);
     color: var(--primary);
