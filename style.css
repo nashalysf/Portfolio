@@ -1,169 +1,354 @@
+:root {
+    --primary: #eae8db;
+    --secondary:#ddbea6;
+    --tertiary:#e6584d;
+    --fortiary:#d97a74;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
+body{
+    background-color: var(--primary);
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*hero needs fixing*/
 .hero{
     background-image: url(images/hero.gif);
-    background-position: center;
-    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
     height: 300px;
-    position: relative;
-    margin:0px;
+    
+   
+}
+.hero img{
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+   
 }
 h2{
+    display: flex;
     font-size: 100px;
-    color: #eae8db;
+    color: var(--primary);
     margin: 0px 100px;
     position: relative;
-    top:75px
+    top: 90px;
+    right: 0px;
+    left: 30px;
+
 }
 header{
     padding: 20px 35px;
-    background-color: #ddbea6;
+    background-color: var(--secondary);
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: 0px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    margin: 0px;
+}
+.work{
+    display: flex;
+    justify-content: flex-start;
 
 }
 header a{
     font-size: 25px;
-    color: #eae8db;
-    position: relative;
-
+    color: var(--primary);
+/*display: flex;
+    justify-content: flex-end; => for responsive*/
 }
 header a:hover{
-    color: #e6584d;
+    color: var(--tertiary);
 }
 header h1{
-    color: #eae8db;
+    color: var(--primary);
     font-weight: bold;
     font-size: 36px;
     margin: 0;
-    background-color: #d97a74;
+    background-color: var(--fortiary);
     padding: 5px;
+    padding-left: 100px;
+    position: relative;
+    right: 40px;;
 }
-header nav{
-    margin:  0;
-    padding: 0px;
-}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
 header nav ul li{
     display: inline;
-    padding: 15px; 
+    padding: 10px 15px; 
     font-weight: lighter;
-    font-size: 22px;
-}
-h1{
-    color: #e6584d;
-    font-size: 60px;
-    display: flex;
+    font-size: 30px;
+    text-decoration: underline;
     position: relative;
-    left: 0px;
+    right: 40px;
 }
+
+nav{
+    margin: 7px 0;
+}
+
+h1{
+    color: var(--tertiary);
+    font-size: 60px;
+    
+}
+
 .about h1{
     position: relative;
     left: 100px;
     bottom: 100px;
+    width: 900px;
 }
 .vertical-line{
 display: inline-block;
-border-left: 3px solid #ddbea6;
+border-left: 3px solid var(--secondary);
 position: relative;
 left: 400px;
-top: 95px;
+top: 50px;
 height: 200px;
 }
 p {
     position: relative;
-    left: 475px;
-    bottom: 220px;
+    right: 0px;
+    left: 50px;
+    bottom: 170px;
     font-size: 20px;
-    color: #e6584d;
+    color: var(--tertiary);
+    line-height: 1.5;
 }
-.work h1{
+.about-info{
+    width: 1500px;
+  margin: 0 auto 30px auto;
+}
+.about-me {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 30px;
+    border-left: 5px solid var(--secondary);
+}
+
+.projects{
+    display: flex;
+    align-items: stretch;
+}
+#works{
     position: relative;
     left: 200px;
-    top: 100px;
+    top: 40px;
 }
+.buddy img{
+    border: solid var(--fortiary) 5px;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 400px;
+}
+
 .vertical-line2{
-    display: inline-block;
-border-left: 3px solid #ddbea6;
+display: inline-block;
+border-left: 3px solid var(--secondary);
 position: relative;
-left: 255px;
-top: 100px;
-height: 200px;
+left: 253px;
+bottom: 100px;
+height: 400px;
+}
+.contact{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
 }
 .contact h1{
     position: relative;
     left: 40px;
-    top: 80px;
+    top: 20px;
 }
 
 .contact a{
-color:#d97a74;
+color:var(--fortiary);
 font-size: 25px;
 text-decoration: underline;
-padding: 20px 40px;
+padding: 10px 40px;
 display: inline;
 margin-left: 25px;
 position: relative;
 left: 500px;
-bottom: 215px;
+bottom: 230px;
 
 }
 .contact a:hover{
-    color: #ddbea6;
+    color: var(--secondary);
 }
-
-
-img{
-    border: #e6584d solid 10px;
-    margin: 50px 10px 0 0;
-    width: 300px;
-    height: 300px;
-    position: relative;
-    bottom: 0px;
-    left: 500px;
-    display: flex;
-    flex: wrap;
-}
-h3{
-    display: flex;
-    padding: 10px;
-    margin: 20px;
-    position: relative;
-    left: 490px;
-    bottom: 100px;
-    background-color: #e6584d;
-    font-size: 25px;
-    text-decoration: none;
-}
-.work{
-    display: flex;
-}
-.buddy{
-    background-image: url("./images/run-buddy.jpg");
-    position: relative;
-    bottom: 0px;
-
-}
-.o19{
-    background-image: url("./images/o19.png");
-    position: relative;
-    bottom: 437px;
-    left: 350px;
-}
-.future{
-    background-image: url("./images/future.jpg");
-    position: relative;
-    bottom: 875px;
-    left: 700px;
-}
-.contact{
-    position: relative;
-    bottom: 850px;
-} 
-
 
 .vertical-line3{
-display: inline-block;
-border-left: 3px solid #ddbea6;
-position: relative;
-left: 400px;
-bottom: 100px;
-height: 200px;
+    display: inline-block;
+    border-left: 3px solid var(--secondary);
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+    height: 200px;
+    }
+h3{
+    font-size: 30px;
+}
+/*first project*/
+.buddy p{
+    font-weight: lighter;
+}
+.buddy h3, .buddy p{
+    text-decoration: underline var(--tertiary);
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 0px ;
+    width: 300px;
+    margin: 0px;
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+    display: flex;
+    line-height: 1;
+}
+.buddy{
+    position: relative;
+    bottom: 100px;
+}
+.buddy img{
+   height: 200px;
+   width: 700px;
+}
+/*second project*/
+.O19 p{
+    font-weight: lighter;
+}
+.O19 h3, .O19 p{
+    text-decoration: underline var(--tertiary);
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 0px ;
+    width: 200px;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+    display: flex;
+    line-height: 1;
+}
+.O19{
+    position: relative;
+    top: 110px;
+    right: 300px;
+}
+.O19 img{
+   height: 200px;
+   width: 300px;
+   border: solid var(--tertiary) 5px;
+}
+/*third project*/
+.Future p{
+    font-weight: lighter;
+}
+.Future h3, .Future p{
+    text-decoration: underline var(--tertiary);
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 0px ;
+    width: 200px;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+    display: flex;
+    line-height: 1;
+}
+.Future{
+    position: relative;
+    top: 110px;
+    right: 275px;
+}
+.Future img{
+   height: 200px;
+   width: 300px;
+   border: solid var(--tertiary) 5px;
+}
+/*fourth project*/
+.Horiseon p{
+    font-weight: lighter;
+}
+.Horiseon h3, .Horiseon p{
+    text-decoration: underline var(--tertiary);
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 0px ;
+    width: 200px;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+    display: flex;
+    line-height: 1;
+}
+.Horiseon{
+    position: relative;
+    top: 110px;
+    right: 250px;
+}
+.Horiseon img{
+   height: 200px;
+   width: 300px;
+   border: solid var(--tertiary) 5px;
+}
+
+.container{
+    margin: 100px auto;
+    padding-right: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.top-section{
+    width: 2540px;
+}
+footer{
+    background-color: #ddbea6;
+    color: #d97a74;
+    height: 90px;
+}
+h4{
+    position: relative;
+    bottom: 0px;
+    top: 30px;
+    left: 20px;
+    width: fit-content;
+    font-size: 25px;
+    display: flex;
+
 }

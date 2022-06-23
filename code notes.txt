@@ -1,0 +1,26 @@
+Within this <form> will be child elements such as <input> and <label>:
+The <label> text not only offers a visual directive of what to enter but also programmatically links to the associated <input>
+When a user with a visual impairment uses a screen reader, the label will be read out loud when they focus on the input field
+
+TYPES: open-ended (a text field that lets the user enter freeform text) and closed-ended (a radio button or checkbox for the user to select or check).
+
+The "for" attribute in the <label> element programmatically links to the id attribute in the <input> element.
+The "type" attribute relates to the type of input element we're using open-ended or closed-ended.
+The "placeholder" attribute offers a hint or label within the text field, but will not be submitted if this field if left blank.
+The "name" attribute identifies the element so the response can be referenced after the form is submitted.
+--------
+A value of static is the default value and maintains the order of the natural flow of the elements on the page.
+positioning isn't affected by the top, bottom, left, and right properties.
+
+A value of relative positioning uses the top and bottom properties to vertically offset 
+and the left and right properties to horizontally offset the element from the static position.
+
+A value of absolute positioning removes the element from the natural flow of the page elements 
+and uses the top, bottom, left, and right properties to offset relative to the element's parent, or containing, element's margins.
+
+ value of fixed positioning removes the element from the natural flow of the page elements and positions it relative to the viewport or 
+browser window so that it isn't affected by scrolling. The fixed position value uses the top, bottom, left and right properties to offset 
+the element from the viewport's margins.
+
+-------
+<span> It is an inline element meant for highlighting sections of larger text blocks, where the highlighting is something we define ourselves with CSS
