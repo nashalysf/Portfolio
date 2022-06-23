@@ -24,3 +24,6 @@ the element from the viewport's margins.
 
 -------
 <span> It is an inline element meant for highlighting sections of larger text blocks, where the highlighting is something we define ourselves with CSS
+-------
+JS 
+== , === , != , !== , && , ||
