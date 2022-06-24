@@ -12,3 +12,4 @@ This project is a personal portfolio made to practice controlling HTML and CSS f
 -Navbar to sections.
 -Projects to websites (on github) with a command for new tabs instead of redirecting current tab.
 -Contacts to mail and social media redirecting current tab.
+### Screenshots: [!screenshots] 
