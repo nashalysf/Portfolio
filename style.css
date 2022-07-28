@@ -299,6 +299,36 @@ h3{
    width: 300px;
    border: solid var(--fortiary) 5px;
 }
+/*fifth project*/
+.FAS p{
+    font-weight: lighter;
+}
+.FAS h3, .FAS p{
+    text-decoration: underline var(--fortiary);
+    background-color: var(--fortiary);
+    color: var(--primary);
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 0px ;
+    width: 200px;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+    display: flex;
+    line-height: 1;
+}
+.FAS{
+    position: relative;
+    top: 110px;
+    right: 225px;
+}
+.FAS img{
+   height: 200px;
+   width: 300px;
+   border: solid var(--fortiary) 5px;
+}
 /*THIRD SECTION CONTACT*/
 .vertical-line3{
     display: inline-block;
