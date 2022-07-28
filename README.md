@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 93ab184f3a7a540b0bf03c9d7540c2815d62ab91
 # Portfolio
 This project is a personal portfolio made to practice controlling HTML and CSS from scratch. This is a first concept idea with room for improvement as I learn more semantics and cool tricks.
 ## This project was made with:
