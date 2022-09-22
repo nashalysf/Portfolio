@@ -12,11 +12,11 @@
 
 body{
     background-color: var(--primary);
-    position: absolute;
     font-family: 'Times New Roman', Times, serif;
+    padding: 0;
 }
 .top-section{
-    width: 2540px;
+    width: 2500px;
 }
 /*INTRO SECTION HEADER AND NAV*/
 header{
@@ -29,7 +29,7 @@ header{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    width: auto;
+    width: 2500px;
     margin: 0px;
 }
 header a{
@@ -59,11 +59,10 @@ header nav ul {
     list-style: none;
   }
 header nav ul li{
-    display: inline;
+    display: inline-block;
     padding: 10px 15px; 
     font-weight: lighter;
     font-size: 30px;
-    text-decoration: underline;
     position: relative;
     right: 40px;
 }
@@ -84,6 +83,7 @@ h1{
     flex-wrap: wrap;
     align-items: flex-start;
     height: 300px;
+    width: 2500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,10 +94,6 @@ h1{
 .hero img{
     background-size: 80%;
     background-attachment: fixed;
-    
-
-    
-   
 }
 h2{
     display: flex;
@@ -128,12 +124,12 @@ height: 300px;
 }
 p {
     position: relative;
-    right: 0px;
-    left: 50px;
+    left: 5%;
     bottom: 240px;
     font-size: 20px;
     color: var(--tertiary);
     line-height: 1.5;
+    width: 90%;
 }
 .about-info{
     width: 1500px;
@@ -329,6 +325,36 @@ h3{
    width: 300px;
    border: solid var(--fortiary) 5px;
 }
+/*sixth project*/
+.TSK p{
+    font-weight: lighter;
+}
+.TSK h3, .TSK p{
+    text-decoration: underline var(--fortiary);
+    background-color: var(--fortiary);
+    color: var(--primary);
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 0px ;
+    width: 250px;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+    display: flex;
+    line-height: 1;
+}
+.TSK{
+    position: absolute;
+    top: 895px;
+    right: 885px;
+}
+.TSK img{
+   height: 200px;
+   width: 300px;
+   border: solid var(--fortiary) 5px;
+}
 /*THIRD SECTION CONTACT*/
 .vertical-line3{
     display: inline-block;
@@ -371,6 +397,7 @@ footer{
     background-color: var(--secondary);
     color: var(--primary);
     height: 90px;
+    width: 2500px;
 }
 h4{
     position: relative;
