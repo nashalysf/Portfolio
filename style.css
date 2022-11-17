@@ -348,9 +348,39 @@ h3{
 .TSK{
     position: absolute;
     top: 895px;
-    right: 885px;
+    right: 720px;
 }
 .TSK img{
+   height: 200px;
+   width: 300px;
+   border: solid var(--fortiary) 5px;
+}
+/*seventh project*/
+.Deepen p{
+    font-weight: lighter;
+}
+.Deepen h3, .Deepen p{
+    text-decoration: underline var(--fortiary);
+    background-color: var(--fortiary);
+    color: var(--primary);
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 0px ;
+    width: 250px;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+    display: flex;
+    line-height: 1;
+}
+.Deepen{
+    position: absolute;
+    top: 895px;
+    right: 400px;
+}
+.Deepen img{
    height: 200px;
    width: 300px;
    border: solid var(--fortiary) 5px;
